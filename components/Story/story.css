@@ -1,0 +1,39 @@
+.story {
+    margin-bottom: 20px;
+    border: solid 0.5px rgba(128, 128, 128, 0.304);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    min-width: 100%;
+
+}
+
+.newsTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.photo img {
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+.buttonContainer {
+    margin-right: none;
+}
+
+.buttonContainer button{
+    background-color: rgb(226, 72, 72);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
